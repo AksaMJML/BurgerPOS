@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('assets\\img\\burgerBG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
