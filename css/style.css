@@ -4,7 +4,97 @@
 }
 
 body{
-    background-image: url('assets\\img\\burgerBG.jpg');
+    background-image: url("assets/img/burgerBG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1a1a1a !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6b35 !important;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffa052 !important;
+    transform: scale(1.05);
+}
+
+.brand-icon {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #e0e0e0 !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ff6b35 !important;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff6b35;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+    width: 100%;
+}
+
+.cart-count {
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.dropdown-menu-dark {
+    background-color: #2a2a2a !important;
+    border: 1px solid #ff6b35;
+}
+
+.dropdown-menu-dark .dropdown-item {
+    color: #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.dropdown-menu-dark .dropdown-item:hover {
+    background-color: #ff6b35;
+    color: #fff;
+}
+
+.navbar-toggler {
+    border-color: #ff6b35 !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 53, 0.25);
+}
+
+/* Sticky navbar styling */
+.sticky-top {
+    z-index: 1020;
 }
