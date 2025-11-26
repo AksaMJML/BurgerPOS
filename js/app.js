@@ -19,4 +19,10 @@ fetch("components/login/login.html")
 //         root.innerHTML += data;
 //     })
 
-
+function signIn() {
+    fetch("components/register/register.html")
+        .then(response => response.text())
+        .then(data => {
+            root.innerHTML += data;
+        })
+}
