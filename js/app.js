@@ -1,5 +1,6 @@
 let root = document.getElementById("root");
 let navBar = document.getElementById("navBar");
+let footer = document.getElementById("footer");
 
 fetch("components/navBar/navBar.html")
     .then(response => response.text())
@@ -26,3 +27,9 @@ function signIn() {
             root.innerHTML += data;
         })
 }
+
+fetch("footerPage/footer.html")
+.then(response => response.text())
+.then(data => {
+    footer.innerHTML += data;
+})
