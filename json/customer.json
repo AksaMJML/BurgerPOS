@@ -1,0 +1,26 @@
+[
+  {
+    "customerID": "CUST002",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@email.net",
+    "phone": "94771234567",
+    "isVIP": true
+  },
+  {
+    "customerID": "CUST003",
+    "firstName": "Priya",
+    "lastName": "Wickramasinghe",
+    "email": "priya.w@example.org",
+    "phone": "94719876543",
+    "isVIP": false
+  },
+  {
+    "customerID": "CUST004",
+    "firstName": "Mohammed",
+    "lastName": "Rizwan",
+    "email": "m.rizwan@test.com",
+    "phone": "94765551212",
+    "isVIP": true
+  }
+]

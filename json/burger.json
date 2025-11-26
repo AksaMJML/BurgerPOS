@@ -1,0 +1,37 @@
+[
+  {
+    "itemID": "BEEF-01",
+    "name": "Classic Beef Burger",
+    "price": 990.00,
+    "pattyType": "Beef",
+    "isSpicy": false
+  },
+  {
+    "itemID": "CHIC-02",
+    "name": "Zinger Chicken Burger",
+    "price": 1450.00,
+    "pattyType": "Crispy Chicken Fillet",
+    "isSpicy": true
+  },
+  {
+    "itemID": "VGN-03",
+    "name": "Veggie Delight Burger",
+    "price": 850.00,
+    "pattyType": "Vegetable",
+    "isSpicy": false
+  },
+  {
+    "itemID": "SUP-04",
+    "name": "Deluxe Double Decker",
+    "price": 2250.00,
+    "pattyType": "Beef & Bacon",
+    "isSpicy": true
+  },
+  {
+    "itemID": "BBQ-05",
+    "name": "Smoked BBQ Ranch Burger",
+    "price": 1650.00,
+    "pattyType": "Chicken Breast",
+    "isSpicy": false
+  }
+]
