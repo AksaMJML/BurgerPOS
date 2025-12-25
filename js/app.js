@@ -30,7 +30,7 @@ function placeOrderView() {
 //         root.innerHTML += data;
 //     })
 
-function shopBurger(){
+function shopBurger() {
     fetch("components/shop/shop.html")
         .then(response => response.text())
         .then(data => {
@@ -38,7 +38,7 @@ function shopBurger(){
         })
 }
 
-function cartburgerl(){
+function cartburgerl() {
     fetch("components/cart/cart.html")
         .then(response => response.text())
         .then(data => {
@@ -61,5 +61,14 @@ fetch("footerPage/footer.html")
     .then(data => {
         footer.innerHTML += data;
     })
+
+
+
+navigator.geolocation.getCurrentPosition(getPosition);
+
+function getPosition(positon) {
+    console.log(positon);
+
+}
 
 
